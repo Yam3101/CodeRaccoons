@@ -20,10 +20,7 @@ function Navbar() {
           <img width={30} src="/navButton.svg" alt="" />
         </button>
       </nav>
-      <div
-        id="hidden-elements"
-        style={{ display: isVisible ? 'flex' : 'none' }}
-      >
+      <div id="hidden-elements" style={{ display: isVisible ? 'flex' : 'none' }}>
         <ul className="grid gap-4">
           <li className="nav-element cursor-pointer p-4 hover:text-blue-400">INICIO</li>
           <li className="nav-element cursor-pointer p-4 hover:text-blue-400">LEARN CODE</li>
