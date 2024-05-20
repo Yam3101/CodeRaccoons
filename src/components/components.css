@@ -1,6 +1,13 @@
 .nav-element {
     font-family: reem kufi fun;
+    transition: color 0.3s;
 }
-.nav-element:hover {
-    color: #4d539e;
+
+@media (max-width: 720px) {
+    #nav-elements-cont {
+        display: none;
+    }
+    #nav-button {
+        display: flex;
+    }
 }
